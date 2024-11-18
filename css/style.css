@@ -181,6 +181,7 @@ i {
 .performances {
   color: var(--primary);
   text-decoration: underline;
+  margin-top: 15vh;
 }
 
 .performance {

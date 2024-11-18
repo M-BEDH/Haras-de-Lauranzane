@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Image cliquée : vous avez choisie l\'Etalon ' + image.src);
 
             // redirigé vers la page de l'etalon en fonction de l'image cliquée
-            if (image.src == 'http://127.0.0.1:5500/assets/images/etalon1.webp') {
+            if (image.src == 'https://m-bedh.github.io/Haras-de-Lauranzane/assets/images/etalon1.webp') {
                 window.location.href = 'etalon1.html';
-            } else if (image.src == 'http://127.0.0.1:5500/assets/images/etalon2.webp') {
+            } else if (image.src == 'https://m-bedh.github.io/Haras-de-Lauranzane/assets/images/etalon2.webp') {
                 window.location.href = 'etalon2.html';
             }
-            else if (image.src == 'http://127.0.0.1:5500/assets/images/etalon3.webp') {
+            else if (image.src == 'https://m-bedh.github.io/Haras-de-Lauranzane/assets/images/etalon3.webp') {
                 {
                     window.location.href = 'etalon3.html';
                 }
