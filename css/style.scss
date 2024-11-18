@@ -1,5 +1,5 @@
 :root {
-    --primary: #af0707;
+    --primary: #ff0202;
     --bcg: #f0f0f0;
     --white: #fff;
     --black: #000;
@@ -189,12 +189,15 @@ figure.etalon {
     
     & figcaption {
         font-size: 2rem;
+
+        & i {
+            margin: 0;
+        }
     }
 }
 
 i {
     color: var(--etoiles);
-    margin: 0;
 }
 
 .performances {
